@@ -16,9 +16,9 @@ const Banner = () => {
             Rent A Home in Singapore
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Seamless Property Search, Inquiry & Agent Connection - All in One
-            Place through Listings, submit rental inquiries instantly, and
-            connect with trusted agents for tours required.
+            Seamless Property Search, Inquiry & Agent Connection—All in One
+            Place.Browse listings, submit rental inquiries instantly, and
+            connect with trusted agents—no login required.
           </p>
           <button className="bg-purple-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-purple-700 transition-colors">
             Start Now!

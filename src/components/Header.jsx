@@ -9,7 +9,7 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-transparent backdrop-blur-md shadow-md">
+    <header className="font-semibold fixed top-0 w-full z-50 bg-transparent backdrop-blur-2xl shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Navbar Row */}
         <div className="relative flex items-center justify-between h-16">
@@ -22,35 +22,26 @@ const Header = () => {
           </a>
 
           {/* Center: Desktop Nav Links (centered with absolute positioning) */}
-          <nav className="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center space-x-6">
+          <nav className="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center space-x-4">
             <Link
               href="/"
-              className="text-gray-700 hover:bg-white transition p-2 rounded-lg"
+              className=" hover:bg-white transition p-2 rounded-lg"
             >
               Home
             </Link>
             <Link
               href="/browseproperties"
-              className="text-gray-700 hover:bg-white transition p-2 rounded-lg"
+              className=" hover:bg-white transition p-2 rounded-lg"
             >
               Browse Properties
             </Link>
-            <a
-              href="#"
-              className="text-gray-700 hover:bg-white transition p-2 rounded-lg"
-            >
+            <a href="#" className=" hover:bg-white transition p-2 rounded-lg">
               About Us
             </a>
-            <a
-              href="#"
-              className="text-gray-700 hover:bg-white transition p-2 rounded-lg"
-            >
+            <a href="#" className=" hover:bg-white transition p-2 rounded-lg">
               Rental Guides
             </a>
-            <a
-              href="#"
-              className="text-gray-700 hover:bg-white transition p-2 rounded-lg"
-            >
+            <a href="#" className=" hover:bg-white transition p-2 rounded-lg">
               Contact Us
             </a>
           </nav>

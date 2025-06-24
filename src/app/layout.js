@@ -21,10 +21,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className="min-h-screen bg-white">
+    <html lang="en" className="scroll-smooth">
+      <body className="min-h-screen flex flex-col bg-white overflow-x-hidden">
         <Header />
-        <main className="flex-grow">{children}</main>
+        <main className="flex-grow w-full">{children}</main>
         <Footer />
       </body>
     </html>

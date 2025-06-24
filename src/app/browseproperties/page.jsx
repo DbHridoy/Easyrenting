@@ -1,3 +1,4 @@
+import { properties } from "@/constants/Const";
 import React from "react";
 import { FaSearch, FaThLarge } from "react-icons/fa";
 
@@ -56,10 +57,13 @@ const page = () => {
 
         {/* Property Cards */}
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-          {[1, 2, 3, 4, 5, 6].map((id) => (
-            <div key={id} className="bg-white rounded shadow overflow-hidden">
+          {properties.map((property) => (
+            <div
+              key={property.id}
+              className="bg-white rounded shadow overflow-hidden"
+            >
               <img
-                src="/apartment.jpg"
+                src={property.image}
                 alt="property"
                 className="w-full h-56 object-cover"
               />

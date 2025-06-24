@@ -7,13 +7,17 @@ import Reviews from "@/components/Reviews";
 
 export default function HomePage() {
   return (
-    <section className="container mx-auto">
+    <>
       <Banner />
-      <Forms />
-      <Featured />
-      <RecentAdded />
-      <Reviews />
+      <div className="overflow-x-hidden px-4 sm:px-6 lg:px-8">
+        <section className="max-w-7xl mx-auto">
+          <Forms />
+          <Featured />
+          <RecentAdded />
+          <Reviews />
+        </section>
+      </div>
       <CTA />
-    </section>
+    </>
   );
 }
