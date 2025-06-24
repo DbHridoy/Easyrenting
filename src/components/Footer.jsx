@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   Facebook,
   LinkedIn,
@@ -31,30 +32,45 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-bold mb-4">Resources</h4>
-            <ul className="space-y-2 text-gray-400">
+            <h4 className="font-bold mb-4 p-2">Resources</h4>
+            <ul className="space-y-2 text-white font-medium">
               <li>
-                <a href="#" className="hover:text-white">
+                <Link
+                  href="/"
+                  className=" hover:bg-purple-600 transition p-2 rounded-lg"
+                >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <Link
+                  href="/browseproperties"
+                  className=" hover:bg-purple-600 transition p-2 rounded-lg"
+                >
                   Browse Properties
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a
+                  href="#"
+                  className="hover:bg-purple-600 transition p-2 rounded-lg"
+                >
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a
+                  href="#"
+                  className="hover:bg-purple-600 transition p-2 rounded-lg"
+                >
                   Contact Us{" "}
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a
+                  href="#"
+                  className="hover:bg-purple-600 transition p-2 rounded-lg"
+                >
                   How it Works
                 </a>
               </li>
@@ -62,20 +78,29 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-bold mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-gray-400">
+            <h4 className="font-bold mb-4 p-2">Quick Links</h4>
+            <ul className="space-y-2 text-white font-medium">
               <li>
-                <a href="#" className="hover:text-white">
+                <a
+                  href="#"
+                  className="hover:bg-purple-600 transition p-2 rounded-lg"
+                >
                   FAQ
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a
+                  href="#"
+                  className="hover:bg-purple-600 transition p-2 rounded-lg"
+                >
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a
+                  href="#"
+                  className="hover:bg-purple-600 transition p-2 rounded-lg"
+                >
                   Terms of Conditions
                 </a>
               </li>
