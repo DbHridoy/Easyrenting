@@ -84,3 +84,47 @@ export const testimonials = [
     text: '"EasyRent.sg has helped me connect with serious tenants. The platform is well-organized, and I love receiving email inquiries from potential renters directly."',
   },
 ];
+
+export const filters = [
+  {
+    label: "Property Type",
+    items: [
+      "Single-family Home",
+      "Apartment",
+      "Condo",
+      "Townhouse",
+      "Duplex",
+      "Land",
+      "Comercial Property",
+      "Vacation Home",
+    ],
+  },
+  {
+    label: "Price Range",
+    items: ["Under $500k", "$500k - $1M", "Above $1M"],
+  },
+  {
+    label: "Location",
+    items: ["New York", "Miami", "San Francisco", "Los Angeles"],
+  },
+  {
+    label: "Available For",
+    items: ["Rent", "Sale"],
+  },
+  {
+    label: "Bedrooms",
+    items: ["1", "2", "3", "4+"],
+  },
+  {
+    label: "Bathrooms",
+    items: ["1", "2", "3", "4+"],
+  },
+  {
+    label: "Size (Square Footage)",
+    items: ["< 1000", "1000-2000", "2000-3000", "3000+"],
+  },
+  {
+    label: "Sort By",
+    items: ["Price: Low to High", "Price: High to Low", "Newest Listings"],
+  },
+];
