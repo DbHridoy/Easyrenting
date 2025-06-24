@@ -25,7 +25,7 @@ const Reviews = () => {
               <div className="flex justify-center mb-4">
                 <div className="w-24 h-24 rounded-full overflow-hidden">
                   <Image
-                    src={testimonial.avatar} // replace with testimonial.avatar
+                    src={testimonial.avatar}
                     alt="Reviewer"
                     width={100}
                     height={100}
@@ -51,25 +51,6 @@ const Reviews = () => {
               {/* Quote */}
               <p className="text-gray-700 text-sm">{testimonial.text}</p>
             </div>
-
-            // <div key={index} className="bg-gray-50 rounded-lg p-6 text-center">
-            //   <div className="mx-auto mb-4 flex items-center justify-center">
-            //     <div className="w-[100px] h-[100px] rounded-full overflow-hidden flex items-center justify-center bg-gray-200">
-            //       <Image
-            //         src={testimonial.avatar}
-            //         width={100}
-            //         height={100}
-            //         alt="reviewer"
-            //         className="object-cover w-full h-full"
-            //       />
-            //     </div>
-            //   </div>
-
-            //   <h4 className="font-bold text-gray-900 mb-2">
-            //     {testimonial.name}
-            //   </h4>
-            //   <p className="text-gray-600 text-sm">{testimonial.text}</p>
-            // </div>
           ))}
         </div>
       </div>

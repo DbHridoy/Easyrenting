@@ -25,23 +25,32 @@ const Header = () => {
           <nav className="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center space-x-4">
             <Link
               href="/"
-              className=" hover:bg-white transition p-2 rounded-lg"
+              className=" hover:bg-purple-400 transition p-2 rounded-lg"
             >
               Home
             </Link>
             <Link
               href="/browseproperties"
-              className=" hover:bg-white transition p-2 rounded-lg"
+              className=" hover:bg-purple-400 transition p-2 rounded-lg"
             >
               Browse Properties
             </Link>
-            <a href="#" className=" hover:bg-white transition p-2 rounded-lg">
+            <a
+              href="#"
+              className=" hover:bg-purple-400 transition p-2 rounded-lg"
+            >
               About Us
             </a>
-            <a href="#" className=" hover:bg-white transition p-2 rounded-lg">
+            <a
+              href="#"
+              className=" hover:bg-purple-400 transition p-2 rounded-lg"
+            >
               Rental Guides
             </a>
-            <a href="#" className=" hover:bg-white transition p-2 rounded-lg">
+            <a
+              href="#"
+              className=" hover:bg-purple-400 transition p-2 rounded-lg"
+            >
               Contact Us
             </a>
           </nav>
@@ -66,12 +75,15 @@ const Header = () => {
       {/* Mobile Dropdown Menu */}
       {mobileMenuOpen && (
         <div className="md:hidden bg-white text-gray-800 shadow-md px-4 py-4 space-y-3">
-          <Link href="/" className="block hover:text-purple-600">
+          <Link href="/" className=" block hover:text-purple-600">
             Home
           </Link>
-          <a href="#" className="block hover:text-purple-600">
+          <Link
+            href="/browseproperties"
+            className="block hover:text-purple-600"
+          >
             Browse Properties
-          </a>
+          </Link>
           <a href="#" className="block hover:text-purple-600">
             About Us
           </a>
